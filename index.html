@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>My Calculator</h1>
+        <p>-By Kaustubh Gawade</p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="inner-container">
+                <textarea name="result" id="result" rows="2" ></textarea>
+                <div class="grid">
+                    <img src="img/apple-touch-icon.png" alt="img" class="fields operators" >
+                    <input type="button" id="cancel" class="fields operators" value="AC" onclick="input(); inputc()"></button>
+                    <input type="button" id="ic" class="fields operators" value = 'C' onclick="input(); inputic()"></button>
+                    <input type="button" id="id" class="fields operators" value = '/' onclick="input(); inputid()"></button>
+                    <input type="button" id="i7" class="fields" value = '7' onclick="input(); inputi7()"></button>
+                    <input type="button" id="i8" class="fields" value = '8' onclick="input(); inputi8()"></button>
+                    <input type="button" id="i9" class="fields" value = '9' onclick="input(); inputi9()"></button>
+                    <input type="button" id="im" class="fields operators" value = '*' onclick="input(); inputim()"></button>
+                    <input type="button" id="i4" class="fields" value = '4' onclick="input(); inputi4()"></button>
+                    <input type="button" id="i5" class="fields" value = '5' onclick="input(); inputi5()"></button>
+                    <input type="button" id="i6" class="fields" value = '6' onclick="input(); inputi6()"></button>
+                    <input type="button" id="is" class="fields operators" value = '-' onclick="input(); inputis()"></button>
+                    <input type="button" id="i1" class="fields" value = '1' onclick="input(); inputi1()"></button>
+                    <input type="button" id="i2" class="fields" value = '2' onclick="input(); inputi2()"></button>
+                    <input type="button" id="i3" class="fields" value = '3' onclick="input(); inputi3()"></button>
+                    <input type="button" id="ip" class="fields operators" value = '+' onclick="input(); inputip()"></button>
+                    <input type="button" id="i0" class="fields" value = '0' onclick="input(); inputi0()"></button>
+                    <input type="button" id="io" class="fields" value = '.' onclick="input(); inputio()"></button>
+                    <input type="button" id="enter" class="fields operators" value="=" onclick="input(); inpute()"></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/style.js"></script>
+</body>
+</html>
